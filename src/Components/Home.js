@@ -4,7 +4,54 @@ import Section from './Section'
 function Home() {
   return (
     <Container>
-      <Section/>
+      <Section  
+        title="Model S"
+        desctiption="Order Online for Touchless Delivery"
+        backgroundImg="model-s.jpg"
+        leftBtnText="Custom order"
+        rightBtnText="Existing inventory"
+      />
+      <Section 
+       title="Model Y"
+       desctiption="Order Online for Touchless Delivery"
+       backgroundImg="model-y.jpg"
+       leftBtnText="Custom order"
+       rightBtnText="Existing inventory"
+      />
+      <Section
+       title="Model 3"
+       desctiption="Order Online for Touchless Delivery"
+       backgroundImg="model-3.jpg"
+       leftBtnText="Custom order"
+       rightBtnText="Existing inventory"
+      />
+      <Section 
+       title="Model X"
+       desctiption="Order Online for Touchless Delivery"
+       backgroundImg="model-x.jpg"
+       leftBtnText="Custom order"
+       rightBtnText="Existing inventory"
+      />
+      <Section 
+      title="Lowest Cost Solar Panels in America"
+      desctiption="Money-back guatantee"
+      backgroundImg="solar-panel.jpg"
+      leftBtnText="Order now"
+      rightBtnText="Learn More"
+      />
+      <Section 
+      title="Solar for New Roofs"
+      desctiption="Solar Roofs Costs Less Than a New Room"
+      backgroundImg="solar-roof.jpg"
+      leftBtnText="Order now"
+      rightBtnText="Learn More"
+      />
+      <Section 
+      title="Accessories"
+      backgroundImg="accessories.jpg"
+      leftBtnText="Shop now"
+      />
+
     </Container>
   )
 }
